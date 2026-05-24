@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Home() {
+export default function ReservaPage() {
   const [nombre, setNombre] = useState("");
   const [fechaEntrada, setFechaEntrada] = useState("");
   const [fechaSalida, setFechaSalida] = useState("");
@@ -22,9 +22,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center 
-                     bg-gradient-to-br from-yellow-50 to-amber-100 p-6 text-gray-900">
-      <div className="bg-white shadow-xl rounded-lg p-8 w-[350px]">
-        <h1 className="text-3xl font-bold mb-6 text-center text-amber-700">
+                     bg-gradient-to-br from-amber-50 to-yellow-100 p-6 text-gray-900">
+      <div className="bg-white shadow-lg rounded-lg p-8 w-[350px]">
+        <h1 className="text-2xl font-bold mb-6 text-center text-amber-700">
           Reserva de Hotel
         </h1>
 
