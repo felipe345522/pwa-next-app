@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Reserva Hotel",
   description: "Aplicación de reservas de hotel",
-  manifest: "/manifest.json"
+  manifest: "/manifest.json",
 };
 
 
